@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form action="#">
+                <h2>Cadastro de projetos</h2>
+                <p>
+                    <label for="Nome">*Título do projeto:</label>
+                    <input type="text" id="Nome" placeholder="Título" required>
+                </p> 
+                <p>
+                    <label for="Coordenadordoprojeto">*Coordenador do projeto:</label>
+                    <input type="text" id="Coordenadordoprojeto" placeholder="Coordenador" required>
+                </p>
+                <p>
+                    <label for="Previsãodeorçamento">*Previsão de orçamento: R$</label>
+                    <input type="text" id="Previsãodeorçamento" placeholder="Previsão de orçamento" required>
+                </p>
+                <p>
+                    <label for="Datadeinício">*Data de início</label>
+                    <input type="date" id="Datadeinício" required>
+                </p> 
+                <p>
+                    <label for="Tempodeduração">Tempo de duração:</label>
+                    <select name="Tempo de duração" id="Tempodeduração">
+                        <option value="0">Trimestral</option>
+                        <option value="1">Semestral</option>
+                        <option value="2">Anual</option>
+                    </select>
+                </p>
+                <fieldset>
+                    <legend>Objetivos de Desenvolvimento Sustentável</legend>
+                    <label>
+                        <input type="checkbox">Erradiação da pobreza
+                    </label>
+                    <label>
+                        <input type="checkbox">Fome zero e agricultura sustentável
+                    </label>
+                    <label>
+                        <input type="checkbox">Saúde e bem-estar
+                    </label>
+                    <label>
+                        <input type="checkbox">Educação de qualidade
+                    </label>
+                    <label>
+                        <input type="checkbox">Igualdade de gênero
+                    </label>
+                    <label>
+                        <input type="checkbox">Água potável e saneamento básico
+                    </label>
+                    <label>
+                        <input type="checkbox">Energia limpa e acessível
+                    </label>
+                    <label>
+                        <input type="checkbox">Trabalho decente e crescimento econômico
+                    </label>
+                    <label>
+                        <input type="checkbox">Industria, inovação e infraestrutura
+                    </label>
+                </fieldset> 
+                <fieldset>
+                    <legend>Nível de impacto:</legend>
+                    <label>
+                        <input type="radio" name="nivel">Regional
+                    </label>
+                    <label>
+                        <input type="radio" name="nivel">Nacional
+                    </label>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
