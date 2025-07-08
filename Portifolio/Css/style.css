@@ -1,3 +1,6 @@
+html {
+    font-size: calc(12px + 0.390625vw);
+}
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -11,4 +14,49 @@ header ul li {
 header ul li a {
     color: black;
     text-decoration: none;
+}
+
+/* === banner === */
+
+section.banner {
+    text-align: center;
+    padding: 1px 2vw 0 2vw;
+}
+section.banner h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+section.banner p {
+    margin: 15px 0 15px 0;
+    line-height: 1.5rem;
+}
+section.banner button {
+    background: #FF6464;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 12px 6px 12px;
+}
+
+/* === posts === */
+
+section.posts {
+    background: #EDF7FA;
+    padding: 2vw 6vw 4vw 6vw;
+}
+section.posts h2 {
+    text-align: center;
+    padding: 0 0 2vw 0;
+}
+section.posts ul li {
+    background: white;
+    padding: 10px 20px 10px 20px;
+}
+section.posts ul li h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+section.posts ul li p {
+    padding: 5px 0 5px 0;
+    line-height: 1.5rem;
 }
