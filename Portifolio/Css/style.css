@@ -61,3 +61,48 @@ section.posts ul li p {
     padding: 5px 0 5px 0;
     line-height: 1.5rem;
 }
+
+/* === works === */
+
+section.works {
+    padding: 2vw 3vw 2vw 3vw;
+}
+section.works h2 {
+    text-align: center;
+}
+section.works ul li img {
+    width: 100%;
+    max-width: 395px;
+}
+section.works ul li h3 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 2vw 0 2vw 0;
+}
+section.works ul li p.data {
+    color: gray;
+}
+section.works ul li p span {
+    background: #142850;
+    color: white;
+    border-radius: 35px;
+    padding: 2px 4px 2px 4px;
+}
+section.works ul li p {
+    padding: 0 0 2vw 0;
+    line-height: 1.5rem;
+}
+footer{
+    text-align: center;
+}
+
+footer a span {
+    color: #21243D;
+    font-size: 2.3rem;
+    margin: 2vw 2vw 2vw 2vw;
+}
+footer p {
+    margin: 0 2vw 2vw 2vw;
+    color: gray;
+    font-size: 0.8rem;
+}
