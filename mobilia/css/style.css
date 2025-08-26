@@ -36,3 +36,48 @@ section.banner{
     padding: 5vw 10vw 5vw 10vw;
     display: flex;
 }
+section.banner p.first{
+    color: #FB2E86;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+section.banner h2{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2vw 0 2vw 0;
+    line-height: 2.5rem;
+} 
+section.banner p.second{
+    color: #8a8fb9;
+    padding: 0 0 2vw 0;
+    line-height: 1.3rem;
+    font-size: 0.7rem;
+}
+section.banner p button {
+    background-color: #FB2E86;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 1.2vw 2.4vw 1.2vw 2.4vw;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+/* === Featured products === */
+
+section.produtos {
+    padding: 5vw 10vw 5vw 10vw;
+}
+section.produtos h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #1A0B5B;
+}
+section.produtos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section.produtos ul li{
+    width: 30%;
+}
