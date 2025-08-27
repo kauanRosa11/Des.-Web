@@ -1,0 +1,65 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.8vw);
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+a.home {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* === Topo === */
+
+header {
+    padding: 4vw 9vw 4vw 9vw;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    padding: 0 1.5vw 0 0;
+}
+header nav ul li {
+    padding: 0 21px 0 21px;
+    font-size: 0.8rem;
+}
+
+/* === banner === */
+
+section.banner {
+    display: flex;
+    padding: 1vw 8vw 4vw 8vw;
+}
+section.banner div {
+    padding: 8vw 0 0 5vw;
+}
+section.banner div h2 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 2.1rem;
+}
+section.banner div h2 strong {
+    color: #458FF6;
+}
+section.banner div p.teste {
+    color: #7D7987;
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    padding: 2.5vw 11vw 0 0;
+}
+section.banner div p button {
+    border: none;
+    border-radius: 2vw;
+    font-size: 0.85rem;
+    background-color: #458FF6;
+    color: white;
+    padding: 1vw 2.5vw 1vw 2.5vw;
+    margin: 2.2vw 0 0 0;
+}
