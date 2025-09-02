@@ -48,7 +48,7 @@ section.banner div h2 {
 section.banner div h2 strong {
     color: #458FF6;
 }
-section.banner div p.teste {
+section.banner div p.cinza {
     color: #7D7987;
     font-size: 0.75rem;
     line-height: 1.1rem;
@@ -62,4 +62,32 @@ section.banner div p button {
     color: white;
     padding: 1vw 2.5vw 1vw 2.5vw;
     margin: 2.2vw 0 0 0;
+}
+
+/* === Cuidados === */
+
+section.cuidados div.center {
+    text-align: center;
+}
+
+section.cuidados h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding: 5vw 0 2vw 0;
+    width: auto;
+    display: inline-block;
+}
+section.cuidados p.saude {
+    padding: 3vw ;
+    font-size: 0.7rem;
+    padding: 2vw 20vw 10vw 20vw;
+    line-height: 1.2rem;
+    color: gray;
+}
+section.cuidados div ul {
+    display: flex;
+}
+section.cuidados div ul li div.left h3 {
+    font-size: 1.2rem;
 }
