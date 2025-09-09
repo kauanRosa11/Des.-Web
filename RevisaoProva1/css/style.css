@@ -1,0 +1,83 @@
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: black; /* altera a cor de todos os links das páginas */
+}
+
+/* === Topo === */
+
+header {
+  padding: 2vw 12vw 2vw 12vw;
+}
+header nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+nav h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding: 0 12px 0 12px;
+}
+
+/* === banner === */
+
+section.banner {
+  background-color: #C4C4C4;
+  margin: 0 12vw 0 12vw;
+  border-radius: 20px;
+  display: flex;
+  padding: 4vw 4vw 2vw 4vw;
+} 
+section.banner div {
+margin: 2vw 12vw 2vw 4vw;
+}
+section.banner div h2 {
+font-size: 2.5rem;
+color: #343F52;
+font-weight: bold;
+}
+section.banner div h2 strong {
+  color: #F857A6;
+}
+section.banner p {
+  color: #60697B;
+  font-size: 1.2rem;
+  padding: 1vw 0 2vw 0;
+  line-height: 1.7rem;
+  margin: 0 2vw 0 0;
+}
+section.banner button {
+  background-color: #F857A6;
+  color: white;
+  padding: 1vw 2vw 1vw 2vw;
+  border-radius: 10px;
+}
+
+/* === propaganda === */
+
+section.case {
+padding: 8vw 8vw 4vw 8vw;
+}
+section.case div {
+  text-align: center;
+}
+section.case div h3 {
+  color: #F857A6;
+  padding: 0 0 1vw 0;
+}
+section.case div h2 {
+  font-size: 2.2rem;
+  margin: 0 22vw 0 22vw;
+  color: #343F52;
+  font-weight: bold;
+}
