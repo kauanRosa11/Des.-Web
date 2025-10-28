@@ -105,8 +105,14 @@ footer p{
   margin: 0 0 7vw 0;
   text-align: center;
 }
+.redes ul li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .redes ul li svg{
   width: 5vw;
+  margin: 0 10px 0 0;
 }
 
 /* === responsividade === */
